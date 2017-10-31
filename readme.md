@@ -2,9 +2,17 @@
 ## 열심히하기
 ### 계속하기
 #### 또하기
-'''
+```
 git config --global user.name "사용자이름"
 git config --global user. email "이메일주소"
+```
+
+```html
+    <h1>제목</h1>
+```
+```css
+    font-size: 12px;
+```
 
 [google](http:www.google.com)
 
