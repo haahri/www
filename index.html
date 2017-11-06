@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello HTML</title>
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -24,9 +24,13 @@
       <form action="javascript:alert('검색이 완료되었습니다.');" class="search-form">
         <fieldset>
           <legend>검색폼</legend>
-          <label for="keyword">검색어</label>
-          <input type="search" class="search" id="keyword" placeholder="검색어를 입력하세요" required>
-          <button type="submit" class="btn-search">검색</button>
+
+          <div class="search-wrap">
+            <label for="keyword">검색어</label>
+            <input type="search" class="search" id="keyword" placeholder="검색어를 입력하세요" required>
+            <button type="submit" class="btn-search">검색</button>
+          </div>
+
         </fieldset>
       </form>
     </header>
