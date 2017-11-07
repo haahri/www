@@ -210,6 +210,9 @@ body {
 
 /* Desktop */
 @media all and (min-width: 1000px) {
+  .container {
+    background: rgb(112, 85, 90);
+  }
   .header, .main-menu {
     width: 80%;
     margin: 0 auto;
@@ -268,6 +271,9 @@ body {
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     padding: 1.5rem 0 1rem;
+  }
+  .btn-menubar {
+    display: none;
   }
   .main-menu {
     list-style: none;
